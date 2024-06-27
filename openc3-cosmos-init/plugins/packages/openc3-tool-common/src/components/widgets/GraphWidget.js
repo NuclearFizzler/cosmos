@@ -112,6 +112,9 @@ export default {
           this.size.width = parseInt(setting[1])
           this.size.height = parseInt(setting[2])
           break
+        case 'YMIN':
+          this.ymin = parseInt(setting[1])
+          break
       }
     })
     if (this.screen) {

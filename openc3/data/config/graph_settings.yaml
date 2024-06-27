@@ -52,3 +52,10 @@ SIZE:
       required: true
       description: Height in pixels
       values: .+
+YMIN:
+  summary: Minimum Y-value graphed
+  parameters:
+    - name: Minimum
+      required: true
+      description: Value of the minimum
+      values: .+
